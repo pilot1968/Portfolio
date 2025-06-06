@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22712d0afb.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/@emailjs/browser/dist/email.min.js"></script>
+    <script src="./script.js"></script>
+    <title>Tagoe Enoch</title>
+</head>
+<body>
+    <div id="header" class="header">
+        <div class="name">Enoch Tagoe</div>
+        <ul class="right-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <h2>Welcome to my Portfolio website</h2>
+        <div class="hero-text">This is my portfolio website.</div>
+        <a href="#contact"><input class="hero-button" type="button" value="Get in touch"></a>
+    </div>
+    <div id="about" class="about">
+            <h2>About Me</h2>
+            <img src="./img/pp.jpg">
+            <p class="about-text">
+                I'm a beginner web developer skilled in HTML, CSS, and JavaScript. I enjoy building responsive, user-friendly websites with clean design and functional layouts.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.github.com/pilot1968" target="_blank"><i class="icons fa-brands fa-github fa-3x"></i></a>
+                <a><i class="icons fa-brands fa-linkedin fa-3x"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=0508605055" target="_blank"><i class="icons fa-brands fa-whatsapp fa-3x"></i></a>
+                <a href="mailto:pilot1968000@gmail.com"><i class="icons fa-solid fa-envelope fa-3x"></i></a>
+            </div>
+    </div>
+    <div id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <a href="https://github.com/pilot1968/Simple-auth-page" target="_blank">
+                <div class="project-card">
+                    <img src="./img/p1.png">
+                    <h3>Simple Authentication Page</h3>
+                    <p>A responsive Authentication webpage built with HTML and CSS.</p>
+                </div>
+            </a>
+            <a href="https://github.com/pilot1968/Landing-page_TOP" target="_blank">
+                <div class="project-card">
+                    <img src="./img/p2.png">
+                    <h3>Landing Page Sample</h3>
+                    <p>A responsive Landing page built with HTML and CSS.</p>
+                </div>
+            </a>
+            <a href="./index.html">
+                <div class="project-card">
+                    <img src="./img/p3.png">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive Portfolio website built with HTML, CSS and JS.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input class="name-email" id="name" type="text" name="name" placeholder="Your Name" required>
+            <input class="name-email" id="email" name="email" placeholder="Your Email" required>
+            <textarea class="message" id="message" type="message" name="message" placeholder="Your Message" required></textarea>
+            <input class="submit" type="submit" value="Send">
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </div>
+</body>
+</html>
